@@ -1,5 +1,4 @@
-# Classification with a Decision Tree
-
+# HarvardX CS109xa Machine Learning and AI with Python: Classification with a Decision Tree
 ## Overview
 
 The goal of this exercise is to practice using Decision Trees for classification using sklearn in Python. You will visualize decision boundaries, compute accuracy scores, analyze feature importance, and visualize decision trees.
