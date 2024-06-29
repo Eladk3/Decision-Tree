@@ -2,7 +2,25 @@
 
 ## Overview
 
-The goal of this exercise is to practice using Decision Trees for classification using sklearn in Python. You will visualize decision boundaries, compute accuracy scores, and analyze feature importance using Decision Trees of varying depths.
+The goal of this exercise is to practice using Decision Trees for classification using sklearn in Python. You will visualize decision boundaries, compute accuracy scores, analyze feature importance, and visualize decision trees.
+
+## Visualizing a Decision Tree
+
+The aim of this exercise is to visualize the decision tree that is created when performing Decision Tree Classification or Regression. The tree will look similar to the one given below.
+
+### Dataset Description
+
+We are trying to predict the winner of the 2016 Presidential election (Trump vs. Clinton) in each county in the US. To do this, we will consider several predictors including `minority`: the percentage of residents that are minorities and `bachelor`: the percentage of resident adults with a bachelor's degree (or higher).
+
+### Instructions
+
+1. **Read the datafile:**
+   - Read the data file `county_election_train.csv` into a Pandas data frame.
+   - Create the response variable based on the columns `trump` and `clinton`.
+
+2. **Initialize and Visualize Decision Tree:**
+   - Initialize a Decision Tree classifier of depth 3 and fit it on the training data.
+   - Visualize the Decision Tree using `tree.plot_tree()`.
 
 ## Instructions
 
@@ -30,4 +48,3 @@ The goal of this exercise is to practice using Decision Trees for classification
 - **Decision Tree Classifier:** Use `sklearn.tree.DecisionTreeClassifier()` to generate decision tree classifiers.
 - **Accuracy Scores:** Use `classifier.score(X, y)` to compute accuracy classification scores.
 - **Feature Importance:** After fitting the decision tree, use `classifier.feature_importances_` to inspect feature importance.
-
